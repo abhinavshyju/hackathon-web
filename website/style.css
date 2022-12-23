@@ -1,0 +1,963 @@
+.home-img img{
+    width: 100%;
+}
+body{
+    margin: 0;
+    background-image: url(./assets/bg-texture.jpg);
+    background-size: cover;
+}
+.hero{
+    margin:2%;
+    background-image: url(./assets/bg.png);
+    height: 92vh;
+    background-size: cover;
+    border-radius: 21px 21px 21px 21px;
+
+}
+/* top element */
+.top1{
+    position: absolute;
+    width: 100%;
+    top:1%;
+}
+.top-ele{
+   margin: 0 auto;
+   width: 20%;
+}
+.top2{
+    position: absolute;
+    width: 100%;
+    top:0%;
+}
+.round-star1{
+    width:10%;
+    margin-left: 7%;
+    
+}
+
+.round-star2{
+    width:10%;
+    margin-right: 7%;
+    margin-left: auto;
+}
+.corner1{
+    width: 1.5%;
+    /* transform: rotate(-170deg); */
+    margin-left: auto;
+    
+}
+/*  top end*/
+/* bottom element */
+.bottom{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    margin: 0;
+}
+.corner2{
+    width: 1.5%;
+    left: 0%;
+    bottom: 0%;
+    
+}
+.b-ele{
+    width: 48%;
+    margin-left: 25%;
+    margin-bottom: 1px;
+}
+.warning{
+    width: 11.3%;
+    margin-left: 44%;
+    margin-bottom: 2%;
+}
+/* bottom end */
+/* leftside */
+.l-side{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+}
+.round-ele{
+    width: 1%;
+    margin-top: 28%;
+    max-height: 100%;
+}
+.l-side-txt{
+    width: .6%;
+    margin-top: 10%;
+    margin-left: .6%;
+}
+/* leftside end */
+/* right side */
+.r-side{
+    position: absolute;
+    width: 100%;
+    top:0%;
+    right: 0%;
+}
+.scale{
+    width: 1.5%;
+    margin-top: 10%;
+    margin-left:auto;
+    margin-right: 3%;
+}
+.r-side-txt{
+    width: .6%;
+    margin-top: 20%;
+    margin-left:99%;
+}
+.r-b-side{
+    position: absolute;
+    width: 100%;
+    bottom:0%;
+    right: 0%;
+}
+.r-star{
+    width: 1.5%;
+    margin-top: 3%;
+    margin-left: auto;
+    
+}
+.r-pinline{
+    width: 1.3%;
+    margin-top: 10%;
+    margin-left:98.5%;
+}
+/* rightside end */
+
+/* hero start */
+.heading{
+    width: 70%;
+    margin-left: 23%;
+    margin-bottom: 10%;
+}
+.heading-phone{
+    width: 0%;
+    margin-left: 23%;
+    margin-bottom: 10%;
+}
+.tech-1{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    margin: 0;
+}
+.title{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    margin: 0;
+}
+.date-ele{
+    width: 20%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+}
+.register{
+    width: 15%;
+    margin-bottom: 11%;
+    margin-left: 41%;
+}
+.code{
+    width: 9%;
+    margin-left: 72%;
+    margin-bottom: 3%;
+}
+.r-b-ele{
+    width: 18.5%;
+    margin-left: 79.4%;
+    margin-bottom: 2.2%;
+    
+}
+.r-b-ele img{
+    border-bottom-right-radius: 20px;
+}
+.l-sidebar{
+    width: 3.5%;
+    height: auto;
+    margin-left: 1.5%;
+    margin-bottom: 1.5%;
+}
+.tech-ele{
+    width: 6%;
+    margin-left: 2%;
+    margin-bottom:14%;
+}
+.smilie{
+    width: 4%;
+    margin-left: 6%;
+    margin-bottom: 8%;
+}
+.barcode{
+    width: 7%;
+    margin-left: 6%;
+    margin-bottom: 4%;
+}
+.gradient{
+    width: 9.5%;
+    margin-left: 6%;
+    margin-bottom: 3%;
+}
+.ip{
+    width: 6%;
+    margin-left: 16%;
+    margin-bottom: 3%;
+}
+.wave{
+    width: 12%;
+    margin-left: 80%;
+    margin-bottom: 6%;
+}
+.dots-r{
+    width: 4.5%;
+    margin-left:93%;
+    margin-bottom: 9%;
+}
+.qrcode{
+    width: 3%;
+    margin-left:50%;
+    margin-bottom: 5.1%;
+}
+.big-dots{
+    width: 4%;
+    margin-left:85%;
+    margin-bottom: .1%;
+}
+.rec-ele{
+    width: 10%;
+    margin-left: 88%;
+    margin-bottom: 6.5%;
+}
+/* button top */
+.button-top{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+}
+.info{
+    width: 8.5%;
+    margin-left: 6%;
+    margin-top: 4%;
+}
+.info{
+    position: absolute;
+    width: 8.5%;
+    margin-left: 6%;
+    margin-top: 4%;
+}
+.about{
+    position:absolute ;
+    width: 8.5%;
+    margin-left: 17.5%;
+    margin-top: 4%;
+}
+.notify{
+    position:absolute ;
+    width: 12.6%;
+    margin-left: 29%;
+    margin-top: 4%;
+}
+.help{
+    position:absolute ;
+    width: 8.5%;
+    margin-left: 60%;
+    margin-top: 4%;
+}
+.gallery{
+    position:absolute ;
+    width: 8.5%;
+    margin-left: 72%;
+    margin-top: 4%;
+}
+.contact{
+    position:absolute ;
+    width: 8.5%;
+    margin-left: 85%;
+    margin-top: 4%;
+}
+
+
+@media only screen and (max-width:700px) {
+
+    .hero{
+    margin:2%;
+    background-image: url(./assets/bg-phone.jpg);
+    height: 92vh;
+    background-size: cover;
+    border-radius: 21px 21px 21px 21px;
+
+}
+/* top element */
+.top1{
+    position: absolute;
+    width: 100%;
+    top:1%;
+}
+.top-ele{
+   margin: 0 auto;
+   width: 30%;
+}
+.top2{
+    position: absolute;
+    width: 100%;
+    top:0%;
+}
+.round-star1{
+    width:0%;
+    
+}
+
+.round-star2{
+    width:0%;
+}
+.corner1{
+    width: 0%;   
+}
+/*  top end*/
+/* bottom element */
+.bottom{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    margin: 0;
+}
+.corner2{
+    width: 1.5%;
+    left: 0%;
+    bottom: 0%;
+    
+}
+.b-ele{
+    width: 0%;
+    margin-left: 25%;
+    margin-bottom: 4%;
+}
+.warning{
+    width: 0%;
+    margin-left: 44%;
+    margin-bottom: 4%;
+}
+/* bottom end */
+/* leftside */
+.l-side{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+}
+.round-ele{
+    width: 1%;
+    margin-top: 28%;
+    max-height: 100%;
+}
+.l-side-txt{
+    width: .6%;
+    margin-top: 10%;
+    margin-left: .6%;
+}
+/* leftside end */
+/* right side */
+.r-side{
+    position: absolute;
+    width: 100%;
+    top:0%;
+    right: 0%;
+}
+.scale{
+    width: 3%;
+    margin-top: 10%;
+    margin-left:auto;
+    margin-right: 3%;
+}
+.r-side-txt{
+    width: .6%;
+    margin-top: 20%;
+    margin-left:99%;
+}
+.r-b-side{
+    position: absolute;
+    width: 100%;
+    bottom:0%;
+    right: 0%;
+}
+.r-star{
+    width: 1.5%;
+    margin-top: 3%;
+    margin-left: auto;
+    
+}
+.r-pinline{
+    width: 0%;
+    margin-top: 10%;
+    margin-left:98.5%;
+}
+/* rightside end */
+
+/* hero start */
+.heading{
+    width: 0%;
+    margin-left: 5%;
+    margin-bottom: 30%;
+}
+.heading-phone{
+    width: 85%;
+    margin-left: 10%;
+    margin-bottom: 30%;
+}
+.title{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    margin: 0;
+}
+.date-ele{
+    width: 30%;
+    margin-bottom: 20%;
+    margin-left: 50%;
+}
+.register{
+    width: 25%;
+    margin-bottom: 28.5%;
+    margin-left: 66%;
+}
+.code{
+    width: 10%;
+    margin-left: auto;
+    margin-right: 19%;
+    margin-bottom: 7%;
+}
+.r-b-ele{
+    width: 18.5%;
+    margin-left: auto;
+    margin-right: 2.2%;
+    margin-bottom: 5.5%;
+    
+}
+.r-b-ele img{
+    border-bottom-right-radius: 20px;
+}
+.l-sidebar{
+    width: 6%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.tech-1{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+}
+.tech-ele{
+    width: 12%;
+    margin-left: 5%;
+    margin-top:1%;
+    transform: scaleY(-1);
+}
+.smilie{
+    width: 0%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+.barcode{
+    width: 10%;
+    margin-left: 10%;
+    margin-bottom: 9%;
+}
+.gradient{
+    width: 9.5%;
+    margin-left: 10%;
+    margin-bottom: 7%;
+}
+.ip{
+    width: 6%;
+    margin-left: 20%;
+    margin-bottom: 7%;
+}
+.wave{
+    width: 12%;
+    margin-left: auto;
+    margin-right: 7%;
+    margin-bottom: 10%;
+}
+.dots-r{
+    width: 5%;
+    margin-left:auto;
+    margin-right: 3%;
+    margin-bottom: 15%;
+}
+.qrcode{
+    width: 5%;
+    margin-left:auto;
+    margin-right: 14%;
+    margin-bottom: 23%;
+}
+.big-dots{
+    width: 4%;
+    margin-left:85%;
+    margin-bottom: .1%;
+}
+.rec-ele{
+    width: 10%;
+    margin-left:auto;
+    margin-right: 2.2%;
+    margin-bottom: 10%;
+}
+/* button top */
+.button-top{
+    position: absolute;
+    width: 100%;
+    top: 3%;
+}
+.info{
+    position: absolute;
+    width: 13%;
+    margin-left:14%;
+    margin-top: 5%;
+}
+.about{
+    position:absolute ;
+    width: 13%;
+    margin-left:14%;
+    margin-top: 10%;
+}
+.notify{
+    position:absolute ;
+    width: 20%;
+    margin-left:14%;
+    margin-top: 15%;
+}
+.help{
+    position:absolute ;
+    width: 13%;
+    margin-left:14%;
+    margin-top: 20%;
+}
+.gallery{
+    position:absolute ;
+    width: 13%;
+    margin-left:14%;
+    margin-top: 25%;
+}
+.contact{
+    position:absolute ;
+    width: 13%;
+    margin-left:14%;
+    margin-top: 30%;
+}
+}
+@media only screen and (max-width:600px) {
+    .hero{
+    margin:2%;
+    background-image: url(./assets/bg-phone.jpg);
+    height: 92vh;
+    background-size: cover;
+    border-radius: 21px 21px 21px 21px;
+
+}
+/* top element */
+.top1{
+    position: absolute;
+    width: 100%;
+    top:1%;
+}
+.top-ele{
+   margin: 0 auto;
+   width: 40%;
+}
+.top2{
+    position: absolute;
+    width: 100%;
+    top:0%;
+}
+.round-star1{
+    width:0%;
+    
+}
+
+.round-star2{
+    width:0%;
+}
+.corner1{
+    width: 0%;   
+}
+/*  top end*/
+/* bottom element */
+.bottom{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    margin: 0;
+}
+.corner2{
+    width: 1.5%;
+    left: 0%;
+    bottom: 0%;
+    
+}
+.b-ele{
+    width: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+.warning{
+    width: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+/* bottom end */
+/* leftside */
+.l-side{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+}
+.round-ele{
+    width: 0%;
+    margin-top: 28%;
+    max-height: 100%;
+}
+.l-side-txt{
+    width: .0;
+    margin-top: 10%;
+    margin-left: .6%;
+}
+/* leftside end */
+/* right side */
+.r-side{
+    position: absolute;
+    width: 100%;
+    top:0%;
+    right: 0%;
+}
+.scale{
+    width: 3%;
+    margin-top: 10%;
+    margin-left:auto;
+    margin-right: 3%;
+}
+.r-side-txt{
+    width: 0%;
+    margin-top: 20%;
+    margin-left:99%;
+}
+.r-b-side{
+    position: absolute;
+    width: 00%;
+    bottom:0%;
+    right: 0%;
+}
+.r-star{
+    width: 1.5%;
+    margin-top: 3%;
+    margin-left: auto;
+    
+}
+.r-pinline{
+    width: 0%;
+    margin-top: 10%;
+    margin-left:98.5%;
+}
+/* rightside end */
+
+/* hero start */
+.heading{
+    width: 0%;
+    margin-left: 5%;
+    margin-bottom: 30%;
+}
+.heading-phone{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 50%;
+}
+.title{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    margin: 0%;
+}
+.date-ele{
+    width: 40%;
+    margin-bottom: 35%;
+    margin-left: 34%;
+}
+.register{
+    width: 35%;
+    margin-bottom: 46.5%;
+    margin-left: 56%;
+}
+.code{
+    width: 0%;
+    margin-left: auto;
+    margin-right: 19%;
+    margin-bottom: 7%;
+}
+.r-b-ele{
+    width: 0;
+    margin-left: auto;
+    margin-right: 2.2%;
+    margin-bottom: .5%;
+    
+}
+.r-b-ele img{
+    border-bottom-right-radius: 20px;
+}
+.l-sidebar{
+    width: 0;
+    height: auto;
+    margin-left: 2%;
+    margin-bottom: 0%;
+}
+.tech-1{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+}
+.tech-ele{
+    width: 23%;
+    margin-left: 3%;
+    margin-top:1%;
+    transform: scaleY(-1);
+    
+}
+.tech-ele img{
+    border-radius: 0 20px ;
+}
+.smilie{
+    width: 00%;
+    margin-left: 15%;
+    margin-bottom: 20%;
+}
+.barcode{
+    width: 0%;
+    margin-left: 15%;
+    margin-bottom: 12%;
+}
+.gradient{
+    width: 0%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+.ip{
+    width: 0%;
+    margin-left: 35%;
+    margin-bottom: 10%;
+}
+.wave{
+    width: 30%;
+    margin-left: auto;
+    margin-right: 7%;
+    margin-bottom: 80%;
+}
+.dots-r{
+    width: 0%;
+    margin-left:auto;
+    margin-right: 3%;
+    margin-bottom: 20%;
+    opacity: 80%;
+}
+.qrcode{
+    width: 7%;
+    margin-left:auto;
+    margin-right: 18%;
+    margin-bottom: 39%;
+}
+.big-dots{
+    width: 0%;
+    margin-left:85%;
+    margin-bottom: .1%;
+}
+.rec-ele{
+    width: 0%;
+    margin-left:auto;
+    margin-right: 2.2%;
+    margin-bottom: 10%;
+}
+/* button top */
+.button-top{
+    position: absolute;
+    width: 100%;
+    top: 6.5%;
+}
+.info{
+    position: absolute;
+    width: 20%;
+    margin-left:16%;
+    margin-top: 5%;
+}
+.about{
+    position:absolute ;
+    width: 20%;
+    margin-left:16%;
+    margin-top: 15%;
+}
+.notify{
+    position:absolute ;
+    width: 29%;
+    margin-left:16%;
+    margin-top: 25%;
+}
+.help{
+    position:absolute ;
+    width: 20%;
+    margin-left:16%;
+    margin-top: 35%;
+}
+.gallery{
+    position:absolute ;
+    width: 20%;
+    margin-left:16%;
+    margin-top: 45%;
+}
+.contact{
+    position:absolute ;
+    width: 20%;
+    margin-left:16%;
+    margin-top: 55%;
+}
+}
+
+.sponsors{
+    width: 80%;
+    margin: 0 auto;
+    /* line-height: normal; */
+}
+.introduction{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 5vw;
+}
+.sponSpan{
+    font-size: 5vw;
+}
+
+/* .................................................................  */
+    /* sponsor section  */
+/* .................................................................  */
+
+.sponsorList{
+    margin-top: 100px;
+    padding-left: 20px;
+    /* display: flex; */
+    row-gap: 50px;
+}
+.sponsorContainer{
+    display: flex;
+}
+/* .sponsorContainer img{
+    width: 200px;
+} */
+.sorting{
+    display: flex;
+}
+.sponsorLogo{
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px rgb(14, 148, 43);
+    background-color: rgb(240, 233, 233);
+}
+.sponsorLogo:hover{
+    box-shadow: 0 16px rgb(216, 170, 17);
+    
+}
+.sList{
+    /* padding-bottom: 40px; */
+    margin-left: 4%;
+}
+
+footer{
+    margin-top: 200px;
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(228, 223, 151);
+}
+  
+.Logos{
+    width: 50%;
+    background-color: rgb(17, 126, 26);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    /* margin-left: 1vw; */
+}
+.footerLogo{
+    max-height: 40px;
+}
+.reactLogo{
+    width: 10%;
+}
+  
+.contactS{
+    width: 40%;
+    background-color: rgb(55, 141, 15);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.react{
+    width: 100%;
+}
+  
+/* .................................................................  */
+        /* mobile view  */
+/* .................................................................  */
+@media only screen and (max-width: 600px){
+
+
+
+/* .................................................................  */
+        /* sponsor section mobile view */
+/* .................................................................  */
+    .sponsorList{
+        margin-top: 100px;
+        padding-left: 0px;
+    }
+    .sList{
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .introduction{
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 15vw;
+    }
+    .sponSpan{
+        font-size: 15vw;
+    }
+    
+/* .................................................................  */
+    /* footer section mobile view */
+/* .................................................................  */
+    footer{
+      display: block;
+    }
+  
+    .Logos{
+      width: 90%;
+      margin: 0 auto;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      border-bottom-left-radius: 0px;
+    }
+    .footerLogo{
+      max-height: 30px;
+    }
+    .reactLogo{
+      width: 10%;
+    }
+    
+    .contactS{
+      width: 90%;
+      margin: 0 auto;
+      /* background-color: rgb(145, 142, 142); */
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+    }
+    .react{
+      display: none;
+    }
+  
+  }
